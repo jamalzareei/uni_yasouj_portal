@@ -1,0 +1,557 @@
+/* 
+    Document   : style
+    Created on : May 25, 2015, 2:10:51 PM
+    Author     : sma
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+root { 
+    display: block;
+}
+body{
+    word-break: break-all;
+    top: 0;
+    left: 0;
+    right: 0; 
+    margin: 0;
+  padding: 0;
+  border: 0;
+  font-family: 'B-nazanin';
+}
+div{
+
+}
+img{
+    border: none;
+}
+span{
+    text-align: left;
+    float: left;
+}
+a{
+    text-decoration: none;
+}
+input[type="text"],input[type="password"],input[type="date"],input[type="email"],input[type="number"]{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    width: 50%;
+    padding: 10px 12px;
+    font-size: 16px;
+    font-weight: 300;
+    box-shadow: none;
+    -moz-box-shadow: none;
+    -webkit-box-shadow: none;
+}
+input[type="text"]{
+    text-align: right;
+}
+
+input[type="file"]{
+    background: #ff33cc;
+    border-radius: 7px;
+    color: #fff;
+    float: left;
+    height: 50px;
+    padding: 0 0 0 100px;
+    width: 26px;
+}
+input[type="text"]:active,input[type="password"]:active{
+
+}
+input[type="submit"],input[type="button"]{
+    background-color: #00908B;
+    border: 0;
+    margin-top: 0;
+    font-size: 16px;
+    font-weight: 600;
+    height: 40px;
+    border-radius: 4px;
+    padding: 0 24px;
+    cursor: pointer;
+}
+select{
+    -webkit-appearance: menulist;
+    box-sizing: border-box;
+    align-items: center;
+    border: 1px solid;
+    border-image-source: initial;
+    border-image-slice: initial;
+    border-image-width: initial;
+    border-image-outset: initial;
+    border-image-repeat: initial;
+    white-space: pre;
+    -webkit-rtl-ordering: logical;
+    color: black;
+    background-color: white;
+    cursor: default; 
+    width: 100%;
+    height: 40px;
+    margin: 10px 22px;
+    direction: rtl;
+    border-radius: 40px;
+    padding-right: 30px;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+option{
+    height: 30px;
+    font-weight: 600;
+    padding-top:3px;    
+}
+option:nth-child(even){
+    background: #3A9000;
+}
+/*select:after,select:before{
+    content:'';
+    position:absolute;
+    z-index:2;
+    top:9px;
+    right:87%;
+    width:0;height:0;
+    border:4px dashed;
+    border-color:#000 transparent;
+    pointer-events:none;
+}*/
+input[type="button"]{
+    background: #3A9000;
+    width: 55%;
+}
+.bodys{
+    height: 600px;
+    width: 100%;
+    margin: 40px auto;
+    position: fixed;
+    /*background: url('../img/5.jpg')no-repeat;*/
+    background-size: 100% 100%;
+    left: 0;
+    float: left;
+}
+.leftlogin{
+    float: right;
+    width: 30%;
+    height: 400px;
+    position: relative;
+    background: url("../img/img_uni_3.jpg")no-repeat;
+    background-size: 100% 100%;
+    margin: 50px 130px;
+}
+.login{
+    float: right;
+    width: 40%;
+    height: 450px;
+    position: relative;
+    border-radius: 10px;
+    margin: 10px 50px;
+    text-align: center;
+    background: #c2c0c0;
+}
+.login div{
+    position: relative;
+    margin: 10px auto;
+}
+.menu{
+    margin: 0 auto;
+    width: 900px;
+}
+.menu ul{
+    /*width: 650px;padding-right: 50px; */
+    margin: 0 auto 5px;
+    background: #4c4e5a;
+    height: 40px;
+    text-align: right;
+    width: 850px;
+    border-radius: 10px;
+}
+
+.menu ul li{
+    list-style: none;
+    position: relative;
+    display: block;
+    float: right; 
+    height: 40px;
+    color: #000;
+    /*float: right;
+    max-width: 200px;
+    min-width: 100px;
+    height: 30px;
+    padding: 0 10px 10px 10px;
+    margin-right: 10px;
+    text-decoration: none;
+    font-size: 18px;
+    
+    font-weight: 600;*/
+}
+
+.menu ul li a{
+    display: block;
+    padding: 0 14px;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 600;
+    margin: 6px 0;
+    line-height: 28px;
+    font: tahoma;
+    text-align: center;
+    text-shadow: 1px 1px 1px 1px rgb(0,0,0,.6);
+    /*list-style: none;
+    float: right;
+    max-width: 200px;
+    min-width: 100px;
+    height: 30px;
+    margin-top: 0;
+    padding: 10px 10px 0 10px;
+    text-decoration: none;*/
+}
+.menu ul li:first-child,.menu ul li:last-child{
+    
+}
+.menu ul li:hover>a{
+    background: #ffffff;
+    color: #000000;
+}
+.menu ul li:hover,.menu ul li a:hover{
+    background: #ffffff;
+    color: #000000;
+}
+.loguser{
+    font-size: 25px;
+    font-weight: 800;
+    top: 20px;
+}
+.body_reg{
+    float: right;
+    text-align: right;
+    width: 100%;
+}
+.reg_row{
+    float: right;
+    width: 100%;
+    border: 1px #00908B dotted;
+}
+.reg_col{
+    float: right;
+}
+.reg_col_1{
+    width: 40%;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 10px 50px;
+    margin-top: 5px;
+}
+.reg_col_2{
+    width: 40%;
+    text-align: left;
+}
+
+.body_account{
+    float: right;
+    width: 100%;
+    height: 600px;
+}
+.log{
+    text-align: center;
+    color: #000;
+    font-size: 20px;
+    font-weight: 600;
+}
+.sidebar_account{
+    float: right;
+    width: 20%;
+    height: 550px;
+    text-align: right;
+    border: 2px #3A9000 solid;
+}
+.sidebar_account div,.sidebar_account a div{
+    padding-top: 7px;
+    text-align: center;
+    font-size: 16px;
+    height: 40px;
+    font-weight: 600;
+    background: rgb(20, 239, 20);
+    color: #fff;
+}
+.top_account{
+    font-size: 20px;
+    font-weight: 900;
+    text-align: right;
+    padding: 10px 60px;
+    background-color: #C2C0C0;
+    color: #000099;
+}
+.sidebar_account .hr,.hr{
+    width: 100%;
+    height: 3px;
+    background: #14EF14;/*#EDEDED;*/
+    float: right;
+    border-top: 1px solid #EDEDED;
+}
+.sidebar_account div a,.sidebar_account a{
+    text-decoration: none;
+    color: #fff;
+    height: 40px;
+    width: 100%;
+    margin: 5px auto;
+    padding-top: 5px; 
+}
+.logins{
+    /*margin: 30px;*/
+    text-align: center;
+    font-size: 30px;
+    color: #00908B;
+}
+.mess_account{
+    float: right;
+    width: 78%;
+    border: 2px #66ffff solid;
+    height: 500px;
+    overflow: auto;
+    margin-bottom: 50px;
+}
+.right_reg,.left_reg{
+    /*float: right;*/
+    width: 50%;
+}
+.reg_row:hover{
+    background: #ccccff;
+    color: #666666;
+}
+.right_reg{
+    height: 600px;
+    width: 50%;
+    margin: 20px auto 300px;
+}
+.left_reg{
+
+    height: 600px;
+}
+.img_left_reg{
+    background: url('../img/img_uni.jpg')no-repeat;
+    background-size: 100% 100%;
+    margin: 50px auto;
+    height: 330px;
+    width: 50%;
+    border-radius: 500px;
+}
+.col_course{
+    width: 16%;
+    float: right;
+    /*border-left: 1px #00908B solid;*/
+    border: 1px #00908B solid;
+    height: 30px;
+    text-align: center;
+    padding-top: 3px;
+}
+.header_course{
+    font-size: 35px;
+    font-weight: 800;
+    text-align: center;
+    margin-bottom: 20px; 
+}
+.header_col_course{
+    font-size: 17px;
+    font-weight: 600;
+    text-align: center;
+    padding-top: 10px;
+    box-shadow: #00908B 1px 10px 5px 3px inset;
+}
+.row_course{
+
+}
+label{
+    color: #000;
+}
+.headering{
+    text-align: center;
+    font-size: 45px;
+    font-weight: 800;
+    margin: 30px auto 0;
+}
+.div_akhz{
+    text-align: center;
+}
+#akhz,.akhz_course{
+    background: #3A9000;
+    height: 25px;
+    width: 45%;
+    margin-top: 2px; 
+}
+.archive{
+    float: right;
+    text-align: center;
+    padding-top: 20px;
+    margin: 20px 0;
+    height: 50px;
+    overflow: auto;
+    border-left: 2px #000 solid;
+    border-right: 2px #000 solid;
+    border-bottom: 2px #666666 dashed;
+}
+.date_archive,.num_archive{
+    width: 15%;
+    font-size: 14px;
+}
+.title_archive{
+    width: 60%;
+    font-size: 20px;
+    font-weight: 600;
+}
+.logo{
+    background: #ccccff;
+}
+.logo img{
+    margin: 0 31%; 
+}
+.img_security img{
+    margin-top: 2px; 
+}
+.img_security{
+    text-align: right;
+}
+.ref_sec{
+    text-align: left;
+}
+.reg_col input{
+    margin: 5px;
+    width: 100%;
+}
+.header_reg{
+    text-align: center;
+    font-size: 50px;
+    font-weight: 800;
+    color: #0000ff;
+    margin-top: 70px;
+}
+.reg_row:nth-child(even),.rows_insert:nth-child(even){
+    background: #C2C0C0;
+}
+/*.row_course:first-child{
+    font-size: 25px;
+    font-weight: 600;
+    text-align: center;
+}
+.right_insert,.left_insert{
+    float: right;
+    text-align: center;
+    width: 50%;
+}
+.right_insert{
+    margin-top: 10px;
+}*/
+.header-row{
+    text-align: center;
+    font-size: 30px;
+    font-weight: 600;
+    margin: 20px 0 20px;
+}
+.about_cours{
+    min-height: 100px;
+    width: 450px;
+    max-width: 450px;
+    margin: 20px 0;
+    text-align: right;
+}
+#date_course{
+    width: 20%;
+    float: right;
+}
+.change_pass{
+    margin: 30px auto;
+    height: 350px;
+    width: 50%;
+    background: #ccccff;
+    border-radius: 10px;
+    text-align: center;
+}
+.col_pass{
+    float: right;
+    width: 70%;
+}
+.col_pass1{
+    float: right;
+    width: 30%;
+    font-size: 16px;
+    font-weight: 600;
+    margin: 25px auto;
+}
+.header_pass{
+    font-size: 40px;
+    font-weight: 600;
+    text-align: center;
+}
+.connect_us{
+    height: 400px;
+    width: 60%;
+    margin: 50px auto 0;
+    background: #ccffff;
+    border-radius: 10px;
+}
+.date_course{
+    float: right;
+    width: 50%;
+}
+.messages{
+    text-align: right;
+    font-weight: 600;
+}
+.messages .row_course{
+    margin: 30px 0;
+    padding-right: 50px;
+}
+.dates{
+    color: #0000ff;
+    font-size: 12px;
+    float: right;
+    width: 30%;
+}
+.date_course{
+    margin: 0 0 50px;
+}
+.title{
+    font-size: 30px;
+    font-weight: 600;
+    color: #006E6E;
+}
+.messa{
+    font-size: 20px;
+    margin: 60px 30px;
+    padding: 10px 100px;
+}
+.arch {
+    padding: 20px 50px 0;
+}
+#row_course:hover{
+    color: #000;
+    font-size: 18px;
+    background: #ccccff;
+}
+#marks{
+    height: 20px;
+    margin: 0;
+    padding: 0;
+    width: 90%;
+}
+.red{
+    color: red;
+    font-size: 15px;
+    text-align: center;
+}
+.green{
+    color: green;
+    font-size: 15px;
+    text-align: center;
+}
+.sidebar_account div:hover{
+    color: #cccccc;
+    background: #C2C0C0;
+}
+.withs{
+    width: 7%;
+}
+.title_archive:hover,.title_archive:hover>a{
+    background: #4c4e5a;
+    font-size: 35px;
+    color: #fff;
+}
